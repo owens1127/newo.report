@@ -16,7 +16,7 @@ export default function Tab({
     <Link
       href={url}
       style={{ borderColor: color }}
-      className={`flex w-full transform content-center items-center justify-center gap-4 rounded-lg border bg-zinc-800/30 bg-gradient-to-b from-inherit pb-6 pt-8 backdrop-blur-2xl transition-transform hover:scale-105 lg:static  lg:w-1/2 lg:rounded-xl lg:border lg:bg-gray-200 lg:bg-zinc-800/30 lg:p-4`}
+      className={`flex w-4/5 transform content-center items-center justify-center gap-4 rounded-lg border bg-zinc-800/30 bg-gradient-to-b from-inherit pb-6 pt-8 backdrop-blur-2xl transition-transform hover:scale-105 lg:static  lg:w-1/2 lg:rounded-xl lg:border lg:bg-gray-200 lg:bg-zinc-800/30 lg:p-4`}
       target="_blank"
     >
       <Image src={`/${icon}.png`} alt={`${icon} logo`} width={40} height={40} />

@@ -42,6 +42,12 @@ export default function Home() {
           color="#5865F2"
         />
         <Tab
+          title="TikTok"
+          url="https://www.tiktok.com/@kneewoah"
+          icon="tiktok"
+          color="#ff0050"
+        />
+        <Tab
           title="Dungeon Report"
           url="https://dungeon.report/pc/4611686018488107374"
           icon="raidreport"
